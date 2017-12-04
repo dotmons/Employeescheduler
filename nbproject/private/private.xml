@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/src/java/struts.xml</file>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/src/java/employee/scheduler/database/SchedulerConnection.java</file>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/src/java/employee/action/EmailAction.java</file>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/src/java/employee/observer/ObserverMail.java</file>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/src/java/employee/observer/Mailbox.java</file>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/src/java/employee/action/AdapterAction.java</file>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/src/java/employee/action/ManagerAction.java</file>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/src/java/employee/observer/PostOffice.java</file>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/web/mailmessage.jsp</file>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/src/java/employee/action/InternalMessageAction.java</file>
+            <file>file:/C:/Users/Dotmons/Documents/Dotmons/Netbeans/Employeeschedule/web/staffmanager.jsp</file>
+        </group>
+    </open-files>
+</project-private>

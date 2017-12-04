@@ -1,0 +1,89 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <constant name="struts.devMode" value="false" />
+    <package name="default" extends="struts-default">    
+                 
+        <action name="islogin" class="employee.action.LoginAction" method="isusernamepasswordvalid">
+            <result name="success">/index.jsp</result>
+            <result name="error">/invalidlogin.jsp</result>
+        </action>
+        
+        <action name="index" class="employee.action.LoginAction" method="loadindex">
+            <result name="success">/index.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        
+        <action name="createnewmanager" class="employee.action.ManagerAction" method="createnewmanager">
+            <result name="success">/staff.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        
+        <action name="getstafflist" class="employee.action.ManagerAction" method="getstafflist">
+            <result name="success">/staff.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        
+        <action name="updatepassword" class="employee.action.PasswordAction" method="updatepassword"> 
+            <result name="success">/password.jsp</result>
+            <result name="error">/error.jsp</result> 
+        </action>
+        
+        <action name="loadupdatepassword" class="employee.action.PasswordAction" method="execute"> 
+            <result name="success">/password.jsp</result>
+            <result name="error">/error.jsp</result> 
+        </action>
+        
+        <action name="logoff" class="employee.action.LogoutAction" method="logoff">
+            <result name="success">/logout.jsp</result>
+            <result name="error">/logout.jsp</result>
+        </action>
+        
+        <!-- Inbox option -->
+        <action name="mailmessage" class="employee.action.InternalMessageAction" method="loadpage">
+            <result name="success">/mailmessage.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        
+        <action name="sendobservermail" class="employee.action.InternalMessageAction" method="sendObserver">
+            <result name="success">/mailmessage.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action> 
+        
+        <action name="reporter" class="employee.action.ReportAction" method="workingschedule">
+            <result name="success">/report.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        
+        <action name="availability" class="employee.action.AvailableAction" method="available">
+            <result name="success">/availability.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        
+        <action name="availablecapacity" class="employee.action.AvailableAction" method="insertcapacity">
+            <result name="success">/availability.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        
+        
+        <action name="manageravailable" class="employee.action.AvailableAction" method="inserttimezone">
+            <result name="success">/availability.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        
+        <action name="updatestaff" class="employee.action.AvailableAction" method="insertstaffavailability">
+            <result name="success">/availability.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        
+        <action name="unupdatestaff" class="employee.action.AvailableAction" method="removestaffavailability">
+            <result name="success">/availability.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        
+        
+        
+    </package>
+</struts>
